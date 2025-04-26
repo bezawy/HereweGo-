@@ -1,0 +1,11 @@
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\bin\Debug\rvt-multi.dll
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\bin\Debug\rvt-multi.pdb
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\rvt-multi.csproj.AssemblyReference.cache
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\Mainwindow.g.cs
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\rvt-multi_MarkupCompile.cache
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\rvt-multi_MarkupCompile.lref
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\Mainwindow.baml
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\rvt-multi.g.resources
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\rvt-multi.csproj.CoreCompileInputs.cache
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\rvt-multi.dll
+C:\Users\bezaw\source\repos\rvt-multi\rvt-multi\obj\Debug\rvt-multi.pdb

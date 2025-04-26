@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>ShowMultiElementsWindow</Name>
+		<Assembly>rvt_Multi.dll</Assembly>
+		<AddInId>
+			3091A0B6-E45F-4BAF-8A8D-A119DC463C54
+
+		</AddInId>
+		<FullClassName>rvt_multi.App</FullClassName>
+
+		<VendorId>QCIT</VendorId>
+		<Text>ExtrnalApp</Text>
+		<Display>Select__Doors</Display>
+		<VendorDescription>qcit</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+
+	</AddIn>
+
+</RevitAddIns>

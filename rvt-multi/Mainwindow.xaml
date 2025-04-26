@@ -1,0 +1,77 @@
+﻿<Window x:Class="rvt_Multielements.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rvt_Multielements"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="350">
+    <Window.Resources>
+        <SolidColorBrush x:Key="numbersColor" Color="#444444"/>
+        <SolidColorBrush x:Key="operatorsColor" Color="Green"/>
+        <SolidColorBrush x:Key="foreColor" Color="Aqua"/>
+        <!--#region apply all ui styles on full app-->
+
+
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Margin" Value="5"/>
+
+        </Style>
+
+        <Style TargetType="Button" x:Key="NumberButtonsStyle">
+            <Setter Property="Background" Value="{StaticResource numbersColor}"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Margin" Value="5"/>
+
+        </Style>
+
+        <Style TargetType="Button" x:Key="OperationsButtonsStyle">
+            <Setter Property="Background" Value="{StaticResource operatorsColor}"/>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Margin" Value="5"/>
+
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Fixed ColumnSpan from 4 to 3 and added proper alignment -->
+        <Button x:Name="DltMltItems" 
+                Click="DeleteMultipleItems_Click" 
+                Content="Delete-Multi" 
+                Grid.ColumnSpan="3"
+                Grid.Row="1" 
+                Style="{StaticResource OperationsButtonsStyle}"/>
+
+        <Button x:Name="DltManualItems" 
+                Click="DeleteManualItem_Click" 
+                Content="Delete-Manually" 
+                Grid.ColumnSpan="3"
+                Grid.Row="2" 
+                Style="{StaticResource NumberButtonsStyle}"/>
+
+        <Button x:Name="CreateWall" 
+                Click="CreateWall_Click" 
+                Content="Creating walls" 
+                Grid.ColumnSpan="3"
+                Grid.Row="3" 
+                Style="{StaticResource NumberButtonsStyle}"/>
+    </Grid>
+</Window>
